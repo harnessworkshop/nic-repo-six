@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nic-repo-six
+  description: This is my sixth repo
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: group:default/fisidpworkshop259users
+  lifecycle: experimental
